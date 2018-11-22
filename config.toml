@@ -1,0 +1,18 @@
+title = "jnferner.com"
+description = "The personal webpage of Jan Nils Ferner"
+url_prefix = "https:/www.jnferner.com"
+
+[[pages]]
+file = "index"
+
+[[pages]]
+path = "/about"
+file = "about"
+Title = "About me"
+
+[[pages]]
+file = "_404"
+title = "Page Not Found"
+
+[assets.style]
+source = "sass/style.scss"
