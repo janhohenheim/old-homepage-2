@@ -1,6 +1,6 @@
-title = "jnferner.com"
+title = "Jan Nils Ferner"
 description = "The personal webpage of Jan Nils Ferner"
-url_prefix = "https:/www.jnferner.com"
+url_prefix = "https://jnferner.com"
 
 [[pages]]
 file = "index"
