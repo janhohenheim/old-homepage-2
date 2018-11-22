@@ -2,13 +2,16 @@ title = "Jan Nils Ferner"
 description = "The personal webpage of Jan Nils Ferner"
 url_prefix = "https://jnferner.com"
 
-[[pages]]
-file = "index"
 
 [[pages]]
 path = "/about"
-file = "about"
+file = "index"
 Title = "About me"
+
+[[pages]]
+path = "/contact"
+file = "contact"
+Title = "Contact"
 
 [[pages]]
 file = "_404"
