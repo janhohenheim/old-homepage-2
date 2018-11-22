@@ -14,6 +14,11 @@ file = "contact"
 Title = "Contact"
 
 [[pages]]
+path = "/publications"
+file = "publications"
+Title = "Publications"
+
+[[pages]]
 file = "_404"
 title = "Page Not Found"
 
