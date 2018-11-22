@@ -14,5 +14,8 @@ Title = "About me"
 file = "_404"
 title = "Page Not Found"
 
+[additional]
+portrait-url = "https://avatars2.githubusercontent.com/u/9047632"
+
 [assets.style]
 source = "sass/style.scss"
