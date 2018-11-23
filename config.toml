@@ -4,19 +4,19 @@ url_prefix = "https://jnferner.com"
 
 
 [[pages]]
-path = "/about"
+path = "/"
 file = "index"
-Title = "About me"
+title = "About me"
 
 [[pages]]
 path = "/contact"
 file = "contact"
-Title = "Contact"
+title = "Contact"
 
 [[pages]]
 path = "/publications"
 file = "publications"
-Title = "Publications"
+title = "Publications"
 
 [[pages]]
 file = "_404"
