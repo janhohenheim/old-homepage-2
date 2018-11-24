@@ -1,3 +1,6 @@
+$dark: #444;
+$pretty-dark: #111;
+
 body {
     font-family: 'Helvetica Neue',
         Helvetica,
@@ -8,7 +11,7 @@ body {
     max-width: 650px;
     line-height: 1.6;
     font-size: 18px;
-    color: #444;
+    color: $dark;
     padding: 0 10px
 }
 
@@ -36,7 +39,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: $dark;
 }
 
 // Source: https://www.reddit.com/r/Design/comments/rtojy/favourite_colours_to_use_when_i_am_designing/
@@ -57,7 +60,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: $pretty-dark;
 }
 
 .active {
