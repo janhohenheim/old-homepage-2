@@ -30,3 +30,35 @@ h3 {
     height: auto;
     border-radius: 8px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+$nice-blue: #6cc0e5;
+$nice-yellow: #fbc93d;
+$nice-red: #fb4f4f;
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: $nice-blue;
+}
