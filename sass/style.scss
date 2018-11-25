@@ -39,7 +39,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: $dark;
 }
 
 // Source: https://www.reddit.com/r/Design/comments/rtojy/favourite_colours_to_use_when_i_am_designing/
@@ -53,16 +52,15 @@ li {
 
 li a {
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: $pretty-dark;
+    color: $pretty-dark;
 }
 
 .active {
-    background-color: $nice-blue;
+    color: $nice-blue;
 }
