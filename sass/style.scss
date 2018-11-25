@@ -1,5 +1,8 @@
 $dark: #444;
-$pretty-dark: #111;
+// Source: https://www.reddit.com/r/Design/comments/rtojy/favourite_colours_to_use_when_i_am_designing/
+$nice-blue: #6cc0e5;
+$nice-yellow: #fbc93d;
+$nice-red: #fb4f4f;
 
 body {
     font-family: 'Helvetica Neue',
@@ -36,15 +39,8 @@ h3 {
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
 }
-
-// Source: https://www.reddit.com/r/Design/comments/rtojy/favourite_colours_to_use_when_i_am_designing/
-$nice-blue: #6cc0e5;
-$nice-yellow: #fbc93d;
-$nice-red: #fb4f4f;
 
 li {
     float: left;
@@ -55,12 +51,10 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: $dark;
 }
 
-li a:hover:not(.active) {
-    color: $pretty-dark;
-}
 
 .active {
-    color: $nice-blue;
+    text-decoration: underline;
 }
