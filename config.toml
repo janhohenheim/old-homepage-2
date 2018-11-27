@@ -25,5 +25,29 @@ title = "Page Not Found"
 [additional]
 portrait-url = "https://avatars2.githubusercontent.com/u/9047632"
 
-[assets.style]
-source = "sass/style.scss"
+[[additional.social_media]]
+name = "GitHub"
+icon = "assets://github"
+link = "https://github.com/jnferner"
+
+[[additional.social_media]]
+name = "LinkedIn"
+icon = "assets://linkedin"
+link = "https://www.linkedin.com/in/jan-nils-ferner-8239b1150/"
+
+[[additional.social_media]]
+name = "ResearchGate"
+icon = "assets://book-open"
+link = "https://www.researchgate.net/profile/Jan_Ferner2"
+
+[[additional.social_media]]
+name = "StackOverflow"
+icon = "assets://inbox"
+link = "https://stackoverflow.com/users/story/5903309"
+
+[assets]
+style = { source = "sass/style.scss" }
+github = { source = "assets/github.svg" }
+linkedin = { source = "assets/linkedin.svg" }
+book-open = { source = "assets/book-open.svg" }
+inbox = { source = "assets/inbox.svg" }
