@@ -60,25 +60,25 @@ li a {
 }
 
 .social-media {
-    padding-left: 15px;
+    margin-left: 15px;
 }
 
 .icon-link {
     display: inline-flex;
     align-items: center;
     font-size: 16px;
-  
-    > .label {
-      padding-top: 4px;
-      padding-bottom: 2px;
-      border-bottom: 2px solid transparent;
-      transition: border-color .2s;
+
+    >.label {
+        padding-top: 4px;
+        padding-bottom: 2px;
+        border-bottom: 2px solid transparent;
+        transition: border-color .2s;
     }
-  
-    > .icon {
-      width: 1.333em;
-      height: 1.333em;
-      margin-right: 6px;
+
+    >.icon {
+        width: 1.333em;
+        height: 1.333em;
+        margin-right: 6px;
     }
-  
-  }
+
+}
